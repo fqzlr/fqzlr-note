@@ -31,7 +31,7 @@ const blogTheme = getThemeConfig({
   footer: {
     // message 字段支持配置为HTML内容，配置多条可以配置为数组
     // message: '下面 的内容和图标都是可以修改的噢（当然本条内容也是可以隐藏的）',
-    copyright: 'MIT License | 粥里有勺糖',
+    copyright: 'MIT License | 番茄主理人',
     // icpRecord: {
     //   name: '蜀ICP备19011724号',
     //   link: 'https://beian.miit.gov.cn/'
@@ -46,23 +46,16 @@ const blogTheme = getThemeConfig({
   themeColor: 'el-blue',
 
   // 文章默认作者
-  author: '粥里有勺糖',
+  author: '番茄主理人',
 
   // 友链
   friend: [
     {
-      nickname: '粥里有勺糖',
-      des: '你的指尖用于改变世界的力量',
+      nickname: '番茄主理人',
+      des: '坐而言不如起而行.',
       avatar:
-        'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030~fmt.webp',
-      url: 'https://sugarat.top',
-    },
-    {
-      nickname: 'Vitepress',
-      des: 'Vite & Vue Powered Static Site Generator',
-      avatar:
-        'https://vitepress.dev/vitepress-logo-large.webp',
-      url: 'https://vitepress.dev/',
+        'https://q1.qlogo.cn/g?b=qq&nk=20447289&s=640',
+      url: 'https://fqzlr.com',
     },
   ],
 
@@ -74,7 +67,7 @@ const blogTheme = getThemeConfig({
       {
         type: 'image',
         src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210~fmt.webp',
-        alt: '粥里有勺糖微信二维码'
+        alt: 'fqzlrの微信二维码'
       },
       {
         type: 'text',
@@ -88,7 +81,7 @@ const blogTheme = getThemeConfig({
       {
         type: 'button',
         content: '作者博客',
-        link: 'https://sugarat.top'
+        link: 'https://fqzlr.com'
       },
       {
         type: 'button',
