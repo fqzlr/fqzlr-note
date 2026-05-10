@@ -63,10 +63,10 @@ const blogTheme = getThemeConfig({
   popover: {
     title: '公告',
     body: [
-      { type: 'text', content: '👇公众号👇---👇 微信 👇' },
+      { type: 'text', content: '👇企鹅群👇' },
       {
         type: 'image',
-        src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210~fmt.webp',
+        src: 'https://tu.fqzlr.com/file/blog/wenzhang/aFkA9VMF.webp',
         alt: 'fqzlrの微信二维码'
       },
       {
@@ -89,7 +89,7 @@ const blogTheme = getThemeConfig({
         props: {
           type: 'success'
         },
-        link: 'https://theme.sugarat.top/group.html',
+        link: 'https://qm.qq.com/q/e4Tqh0OxnW',
       }
     ],
     duration: 0
