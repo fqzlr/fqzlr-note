@@ -3,6 +3,11 @@ import { defineConfig } from 'vitepress'
 // 导入主题的配置
 import { blogTheme } from './blog-theme'
 
+//主要作用是在文章底部添加打赏模块：
+// ✅ 正确导入 SponsorPlugin
+import { SponsorPlugin } from 'vitepress-plugin-sponsor'
+
+
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
 // 如果项目名已经为 name.github.io 域名，则不需要修改！
@@ -45,6 +50,8 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      { text: 'ai相关', link: 'post/about-ai/Useful Tools/tool' },
+      {text: '友链', link: '/friend-link-list/'}, 
       { text: '关于作者', link: 'https://fqzlr.com/about.html' }
     ],
     socialLinks: [
@@ -52,6 +59,17 @@ export default defineConfig({
         icon: 'github',
         link: 'https://github.com/fqzlr'
       }
-    ]
-  }
+    ],
+    },
+      // ✅ vite 配置放在顶层，不是 themeConfig 内部！
+    vite: {
+      plugins: [
+        SponsorPlugin({
+          type: 'simple',
+          aliPayQR: 'your_image_link',
+          weChatQR: 'your_image_link'
+          })
+        ]
+      }
+    
 })
