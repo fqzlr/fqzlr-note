@@ -50,9 +50,53 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: 'ai相关', link: 'post/about-ai/Useful Tools/tool' },
+      {
+        text: 'ai相关',
+        items: [
+          { text: '基本', link: '/post/about-ai/Useful-Tools/tool' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
+{
+  text: 'vitepress指南',
+  items: [
+    {
+      text: '介绍',
+      items: [
+        { text: '前言', link: '/post/about-vitepress/preface' },
+      ],
+    },
+    {
+      text: '基础设置',
+      items: [
+        { text: '快速上手', link: '/post/about-vitepress/getting-started' },
+        { text: '配置', link: '/post/about-vitepress/configuration' },
+        { text: '页面', link: '/post/about-vitepress/page' },
+        { text: 'Frontmatter', link: '/post/about-vitepress/frontmatter' },
+      ],
+    },
+    {
+      text: '进阶玩法',
+      items: [
+        { text: 'Markdown', link: '/post/about-vitepress/markdown' },
+        { text: '团队', link: '/post/about-vitepress/team' },
+        { text: '多语言', link: '/post/about-vitepress/multi-language' },
+        { text: 'DocSearch', link: '/post/about-vitepress/docsearch' },
+        { text: '静态部署', link: '/post/about-vitepress/assets' },
+        { text: '样式美化', link: '/post/about-vitepress/style' },
+        { text: '组件', link: '/post/about-vitepress/components' },
+        { text: '布局插槽', link: '/post/about-vitepress/layout' },
+        { text: '插件', link: '/post/about-vitepress/plugin' },
+        { text: '更新及卸载', link: '/post/about-vitepress/update' },
+        { text: '搭建导航', link: '/post/about-vitepress/nav/' },
+        { text: '永久链接', link: '/post/about-vitepress/permalink/' },
+      ],
+    },
+  ],
+},
       {text: '友链', link: '/friend-link-list/'}, 
-      { text: '关于作者', link: 'https://fqzlr.com/about.html' }
+      { text: '关于作者', link: 'https://fqzlr.com/about.html' },
     ],
     socialLinks: [
       {
@@ -60,6 +104,7 @@ export default defineConfig({
         link: 'https://github.com/fqzlr'
       }
     ],
+    
     },
       // ✅ vite 配置放在顶层，不是 themeConfig 内部！
     vite: {
