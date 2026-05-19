@@ -7,14 +7,12 @@ next: false
 outline: [2, 3, 4]
 ---
 
-@import "/.vitepress/theme/style/nav.css";
-
-<!-- <style src="/.vitepress/theme/style/nav.css"></style> -->
+<style src="/.vitepress/theme/style/nav.css"></style>
 
 <script setup>
-import { NAV_DATA } from '/.vitepress/theme/untils/data'
+// 修复：拼写错误 + 改用相对路径（最稳）
+import { NAV_DATA } from '../../.vitepress/theme/utils/data'
 </script>
-
 
 # 我的导航
 
