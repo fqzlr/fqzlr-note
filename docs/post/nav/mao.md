@@ -7,13 +7,14 @@ next: false
 outline: [2, 3, 4]
 ---
 
-<style src="/.vitepress/theme/style/nav.css"></style>
-
 <script setup>
-// 这里我直接注释掉不存在的引入，打包就不会报错了
-// import { NAV_DATA } from '/.vitepress/theme/utils/data'
+// 这行是你报错的根源：文件不存在，直接删掉！
+// import { NAV_DATA } from '/.vitepress/theme/untils/data'
 
-// 如果你需要导航数据，用下面这个空数据临时顶着（不报错）
+// 这行是新报错：CSS文件不存在，直接删掉！
+// import "/.vitepress/theme/style/nav.css";
+
+// 给一个空数据，让页面不报错
 const NAV_DATA = []
 </script>
 
