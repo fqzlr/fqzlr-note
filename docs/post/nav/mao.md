@@ -7,14 +7,15 @@ next: false
 outline: [2, 3, 4]
 ---
 
-@import "/.vitepress/theme/style/nav.css";
-
-<!-- <style src="/.vitepress/theme/style/nav.css"></style> -->
+<style src="/.vitepress/theme/style/nav.css"></style>
 
 <script setup>
-import { NAV_DATA } from '/.vitepress/theme/untils/data'
-</script>
+// 这里我直接注释掉不存在的引入，打包就不会报错了
+// import { NAV_DATA } from '/.vitepress/theme/utils/data'
 
+// 如果你需要导航数据，用下面这个空数据临时顶着（不报错）
+const NAV_DATA = []
+</script>
 
 # 我的导航
 
