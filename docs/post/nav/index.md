@@ -1261,7 +1261,7 @@ import { NAV_DATA } from '/.vitepress/theme/untils/data'
 ### 搜索
 
 
-默认自带的本地搜索无法爬取到导航，建议使用 [Algolia](../page.md#algolia)
+默认自带的本地搜索无法爬取到导航，建议使用 [Algolia](../about-vitepress/page.md#algolia)
 
 还需要增加页面的 `outline` 配置项
 
@@ -1298,7 +1298,7 @@ outline: [2, 3, 4]
 
 ### 下划线
 
-这个在 [VitePress美化](../style#链接下划线) 的时候说了，请参考修改
+这个在 [VitePress美化](../about-vitepress/style.md#链接下划线) 的时候说了，请参考修改
 
 ::: warning 注意
 如果你在 `var.css` 中引用了，这里就不用填了
@@ -1326,7 +1326,7 @@ outline: [2, 3, 4]
 </style>
 ```
 
-因为安装 [medium-zoom](../plugin.md#图片缩放) 的时候引入了一个样式，导致手机端导航被这个图片样式给遮盖了
+因为安装 [medium-zoom](../about-vitepress/plugin.md#图片缩放) 的时候引入了一个样式，导致手机端导航被这个图片样式给遮盖了
 
 那么我们直接在样式中禁用即可
 

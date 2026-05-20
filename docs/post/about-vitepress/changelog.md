@@ -55,7 +55,7 @@ next: false
 
 ## 2025-6-23
 
-- 新增 [永久链接](./permalink/) 教程
+- 新增 [永久链接](../permalink/) 教程
 
 
 
@@ -164,7 +164,7 @@ next: false
 
 ## 2024-12-3
 
-- 修复 [搭建导航](./nav/index.md) css不生效，并弃用sass
+- 修复 [搭建导航](../nav/index.md) css不生效，并弃用sass
 
 - 补充说明 [代码块带标题](./style.md#代码块带标题) 教程
 
