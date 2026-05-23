@@ -53,9 +53,9 @@ export default defineConfig({
       {
         text: 'ai相关',
         items: [
-          { text: '基本', link: '/post/about-ai/Useful-Tools/tool' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: '导演笔记', link: '/post/about-ai/ai学习/导演笔记' },
+          { text: '剧本学习', link: '/post/about-ai/ai学习/剧本学习' },
+          { text: '华强买瓜教程', link: '/post/about-ai/ai学习/华强买瓜教程' },
         ]
       },
 {
@@ -111,8 +111,8 @@ export default defineConfig({
       plugins: [
         SponsorPlugin({
           type: 'simple',
-          aliPayQR: 'your_image_link',
-          weChatQR: 'your_image_link'
+          aliPayQR: '/pay/alipay.png',
+          weChatQR: '/pay/wechat.png'
           })
         ]
       }

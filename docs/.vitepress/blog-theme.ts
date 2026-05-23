@@ -17,7 +17,7 @@ const RSS: Theme.RSSOptions = {
 // 所有配置项，详见文档: https://theme.sugarat.top/
 const blogTheme = getThemeConfig({
   // 开启RSS支持
-  // RSS,
+    RSS,
 
   // 搜索
   // 默认开启pagefind离线的全文搜索支持（如使用其它的可以设置为false）
