@@ -50,8 +50,30 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+        {
+    text: 'ai相关',
+    items: [
+      {
+        text: 'ai学习',
+        items: [
+          { text: '导演笔记', link: '/post/about-ai/ai学习/导演笔记' },
+          { text: '剧本学习', link: '/post/about-ai/ai学习/剧本学习' },
+          { text: '华强买瓜教程', link: '/post/about-ai/ai学习/华强买瓜教程' },
+          { text: '试着制作', link: '/post/about-ai/ai学习/试着制作' },
+          { text: 'codex和cc对比', link: '/post/about-ai/ai学习/codex和cc对比' },
+        ]
+      },
+      {
+        text: '跳爷',
+        items: [
+          { text: '跳爷5月16期', link: '/post/about-ai/跳爷/跳爷5月16期' },
+        ]
+      }
+    ]
+  },
       {
         text: 'ai相关',
+        
         items: [
           { text: '导演笔记', link: '/post/about-ai/ai学习/导演笔记' },
           { text: '剧本学习', link: '/post/about-ai/ai学习/剧本学习' },
