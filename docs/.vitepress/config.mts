@@ -71,15 +71,6 @@ export default defineConfig({
       }
     ]
   },
-      {
-        text: 'ai相关',
-        
-        items: [
-          { text: '导演笔记', link: '/post/about-ai/ai学习/导演笔记' },
-          { text: '剧本学习', link: '/post/about-ai/ai学习/剧本学习' },
-          { text: '华强买瓜教程', link: '/post/about-ai/ai学习/华强买瓜教程' },
-        ]
-      },
 {
   text: 'vitepress指南',
   items: [
