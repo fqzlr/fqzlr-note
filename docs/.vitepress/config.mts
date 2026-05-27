@@ -23,7 +23,7 @@ export default defineConfig({
   base,
   lang: 'zh-cn',
   title: 'fqzlrの笔记本',
-  description: '一个小小的笔记本',
+  description: '一个小小小小的的笔记本',
   lastUpdated: true,
   // 详见：https://vitepress.dev/zh/reference/site-config#head
   head: [
