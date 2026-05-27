@@ -68,7 +68,16 @@ export default defineConfig({
         items: [
           { text: '跳爷5月16期', link: '/post/about-ai/跳爷/跳爷5月16期' },
         ]
-      }
+      }，
+            // 你之前新增的几个文件夹，我统一放在这里：
+      { text: '豹豹喵呜', link: '/post/about-ai/豹豹喵呜' },
+      { text: '橡树幻想', link: '/post/about-ai/橡树幻想' },
+      { text: 'Useful-Tools', link: '/post/about-ai/Useful-Tools' },
+      { text: '鳌拜', link: '/post/about-ai2/鳌拜' },
+      { text: '肥侯', link: '/post/about-ai2/肥侯' },
+      { text: '金鱼', link: '/post/about-ai2/金鱼' },
+      { text: '土豆', link: '/post/about-ai2/土豆' },
+      { text: 'worker-fish', link: '/post/about-ai2/worker-fish' }
     ]
   },
 {
