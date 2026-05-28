@@ -47,160 +47,160 @@ export default defineConfig({
     //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
     //   text: '去 GitHub 上编辑内容'
     // },
-    nav: [
-      { text: '首页', link: '/' },
+nav: [
+  { text: '首页', link: '/' },
+  {
+    text: 'ai相关',
+    items: [
       {
-        text: 'ai相关',
+        text: '豹豹喵呜',
         items: [
           {
-            text: '豹豹喵呜',
-            items: [
-              {
-                text: '2026-05-27 最新三采高清写真图生成工作流，z-image加klein强强联合',
-                link: '/post/about-ai/豹豹喵呜/2026-05-27 最新三采高清写真图生成工作流，z-image加klein强强联合'
-              },
-              {
-                text: '豹豹画册提示词',
-                link: '/post/about-ai/豹豹喵呜/豹豹画册提示词'
-              }
-            ]
+            text: '2026-05-27 最新三采高清写真图生成工作流，z-image加klein强强联合',
+            link: '/post/about-ai/豹豹喵呜/2026-05-27最新三采高清写真图生成工作流-z-image加klein强强联合'
           },
           {
-            text: '跳爷',
-            items: [
-              {
-                text: '4月04期 人物换头 声音同步替换',
-                link: '/post/about-ai/跳爷/4月04期 人物换头 声音同步替换'
-              },
-              {
-                text: '4月09期 OmniVoice多角色对白 没Qwen3 tts好',
-                link: '/post/about-ai/跳爷/4月09期 OmniVoice多角色对白 没Qwen3 tts好'
-              },
-              {
-                text: '4月16期 短视频自动配音效',
-                link: '/post/about-ai/跳爷/4月16期 短视频自动配音效'
-              },
-              {
-                text: '5月05期 多图参考一键 4-9-25 多宫短剧分镜',
-                link: '/post/about-ai/跳爷/5月05期 多图参考一键 4-9-25 多宫短剧分镜'
-              },
-              {
-                text: '5月09期 视频转风格（用不到）',
-                link: '/post/about-ai/跳爷/5月09期 视频转风格（用不到）'
-              },
-              {
-                text: '5月12期 SoulX-Singer｜一键换声',
-                link: '/post/about-ai/跳爷/5月12期 SoulX-Singer｜一键换声'
-              },
-              {
-                text: '5月16期-4图转视频导演工作流',
-                link: '/post/about-ai/跳爷/5月16期-4图转视频导演工作流'
-              },
-              {
-                text: 'Z-1月27期-Qwen3-TTS支持8角色同框配音神器',
-                link: '/post/about-ai/跳爷/Z-1月27期-Qwen3-TTS支持8角色同框配音神器'
-              }
-            ]
-          },
-          {
-            text: '橡树幻想',
-            items: [
-              {
-                text: '2026-04-05 最新优化版黑兽Klein9B全自动换脸+任意姿势编辑合集',
-                link: '/post/about-ai/橡树幻想/2026-04-05 最新优化版黑兽Klein9B全自动换脸+任意姿势编辑合集'
-              },
-              {
-                text: '2026-04-16 LTX23超强一致性数字人工流AI演唱会MV制作',
-                link: '/post/about-ai/橡树幻想/2026-04-16 LTX23超强一致性数字人工流AI演唱会MV制作'
-              },
-              {
-                text: '2026-05-06 KleinTrueV2全功能合集，7套商用级生图+编辑工作流',
-                link: '/post/about-ai/橡树幻想/2026-05-06 KleinTrueV2全功能合集，7套商用级生图+编辑工作流'
-              },
-              {
-                text: '2026-05-27 三采样极致真实 文声图',
-                link: '/post/about-ai/橡树幻想/2026-05-27 三采样极致真实 文声图'
-              }
-            ]
-          },
-          {
-            text: 'ai学习',
-            items: [
-              { text: '导演笔记', link: '/post/about-ai/ai学习/导演笔记' },
-              { text: '华强买瓜教程', link: '/post/about-ai/ai学习/华强买瓜教程' },
-              { text: '剧本学习', link: '/post/about-ai/ai学习/剧本学习' },
-              { text: '试着制作', link: '/post/about-ai/ai学习/试着制作' },
-              { text: 'codex和cc对比', link: '/post/about-ai/ai学习/codex和cc对比' }
-            ]
-          },
-          {
-            text: 'Useful-Tools',
-            items: [
-              { text: 'tool', link: '/post/about-ai/Useful-Tools/tool' }
-            ]
-          },
-          {
-            text: '鳌拜',
-            link: '/post/about-ai2/鳌拜'
-          },
-          {
-            text: '肥侯',
-            link: '/post/about-ai2/肥侯'
-          },
-          {
-            text: '金鱼',
-            link: '/post/about-ai2/金鱼'
-          },
-          {
-            text: '土豆',
-            link: '/post/about-ai2/土豆'
-          },
-          {
-            text: 'worker-fish',
-            link: '/post/about-ai2/worker-fish'
+            text: '豹豹画册提示词',
+            link: '/post/about-ai/豹豹喵呜/豹豹画册提示词'
           }
         ]
       },
       {
-        text: 'vitepress指南',
+        text: '跳爷',
         items: [
           {
-            text: '介绍',
-            items: [
-              { text: '前言', link: '/post/about-vitepress/preface' }
-            ]
+            text: '4月04期 人物换头 声音同步替换',
+            link: '/post/about-ai/跳爷/4月04期-人物换头-声音同步替换'
           },
           {
-            text: '基础设置',
-            items: [
-              { text: '快速上手', link: '/post/about-vitepress/getting-started' },
-              { text: '配置', link: '/post/about-vitepress/configuration' },
-              { text: '页面', link: '/post/about-vitepress/page' },
-              { text: 'Frontmatter', link: '/post/about-vitepress/frontmatter' }
-            ]
+            text: '4月09期 OmniVoice多角色对白 没Qwen3 tts好',
+            link: '/post/about-ai/跳爷/4月09期-OmniVoice多角色对白-没Qwen3tts好'
           },
           {
-            text: '进阶玩法',
-            items: [
-              { text: 'Markdown', link: '/post/about-vitepress/markdown' },
-              { text: '团队', link: '/post/about-vitepress/team' },
-              { text: '多语言', link: '/post/about-vitepress/multi-language' },
-              { text: 'DocSearch', link: '/post/about-vitepress/docsearch' },
-              { text: '静态部署', link: '/post/about-vitepress/assets' },
-              { text: '样式美化', link: '/post/about-vitepress/style' },
-              { text: '组件', link: '/post/about-vitepress/components' },
-              { text: '布局插槽', link: '/post/about-vitepress/layout' },
-              { text: '插件', link: '/post/about-vitepress/plugin' },
-              { text: '更新及卸载', link: '/post/about-vitepress/update' },
-              { text: '搭建导航', link: '/post/about-vitepress/nav/' },
-              { text: '永久链接', link: '/post/about-vitepress/permalink/' }
-            ]
+            text: '4月16期 短视频自动配音效',
+            link: '/post/about-ai/跳爷/4月16期-短视频自动配音效'
+          },
+          {
+            text: '5月05期 多图参考一键 4-9-25 多宫短剧分镜',
+            link: '/post/about-ai/跳爷/5月05期-多图参考一键4-9-25多宫短剧分镜'
+          },
+          {
+            text: '5月09期 视频转风格（用不到）',
+            link: '/post/about-ai/跳爷/5月09期-视频转风格（用不到）'
+          },
+          {
+            text: '5月12期 SoulX-Singer｜一键换声',
+            link: '/post/about-ai/跳爷/5月12期-SoulX-Singer一键换声'
+          },
+          {
+            text: '5月16期-4图转视频导演工作流',
+            link: '/post/about-ai/跳爷/5月16期-4图转视频导演工作流'
+          },
+          {
+            text: 'Z-1月27期-Qwen3-TTS支持8角色同框配音神器',
+            link: '/post/about-ai/跳爷/Z-1月27期-Qwen3-TTS支持8角色同框配音神器'
           }
         ]
       },
-      { text: '友链', link: '/friend-link-list/' },
-      { text: '关于作者', link: 'https://fqzlr.com/about.html' }
-    ],
+      {
+        text: '橡树幻想',
+        items: [
+          {
+            text: '2026-04-05 最新优化版黑兽Klein9B全自动换脸+任意姿势编辑合集',
+            link: '/post/about-ai/橡树幻想/2026-04-05-最新优化版黑兽Klein9B全自动换脸+任意姿势编辑合集'
+          },
+          {
+            text: '2026-04-16 LTX23超强一致性数字人工流AI演唱会MV制作',
+            link: '/post/about-ai/橡树幻想/2026-04-16-LTX23超强一致性数字人工流AI演唱会MV制作'
+          },
+          {
+            text: '2026-05-06 KleinTrueV2全功能合集，7套商用级生图+编辑工作流',
+            link: '/post/about-ai/橡树幻想/2026-05-06KleinTrueV2全功能合集7套商用级生图+编辑工作流'
+          },
+          {
+            text: '2026-05-27 三采样极致真实 文声图',
+            link: '/post/about-ai/橡树幻想/2026-05-27-三采样极致真实文声图'
+          }
+        ]
+      },
+      {
+        text: 'ai学习',
+        items: [
+          { text: '导演笔记', link: '/post/about-ai/ai学习/导演笔记' },
+          { text: '华强买瓜教程', link: '/post/about-ai/ai学习/华强买瓜教程' },
+          { text: '剧本学习', link: '/post/about-ai/ai学习/剧本学习' },
+          { text: '试着制作', link: '/post/about-ai/ai学习/试着制作' },
+          { text: 'codex和cc对比', link: '/post/about-ai/ai学习/codex和cc对比' }
+        ]
+      },
+      {
+        text: 'Useful-Tools',
+        items: [
+          { text: 'tool', link: '/post/about-ai/Useful-Tools/tool' }
+        ]
+      },
+      {
+        text: '鳌拜',
+        link: '/post/about-ai2/鳌拜'
+      },
+      {
+        text: '肥侯',
+        link: '/post/about-ai2/肥侯'
+      },
+      {
+        text: '金鱼',
+        link: '/post/about-ai2/金鱼'
+      },
+      {
+        text: '土豆',
+        link: '/post/about-ai2/土豆'
+      },
+      {
+        text: 'worker-fish',
+        link: '/post/about-ai2/worker-fish'
+      }
+    ]
+  },
+  {
+    text: 'vitepress指南',
+    items: [
+      {
+        text: '介绍',
+        items: [
+          { text: '前言', link: '/post/about-vitepress/preface' }
+        ]
+      },
+      {
+        text: '基础设置',
+        items: [
+          { text: '快速上手', link: '/post/about-vitepress/getting-started' },
+          { text: '配置', link: '/post/about-vitepress/configuration' },
+          { text: '页面', link: '/post/about-vitepress/page' },
+          { text: 'Frontmatter', link: '/post/about-vitepress/frontmatter' }
+        ]
+      },
+      {
+        text: '进阶玩法',
+        items: [
+          { text: 'Markdown', link: '/post/about-vitepress/markdown' },
+          { text: '团队', link: '/post/about-vitepress/team' },
+          { text: '多语言', link: '/post/about-vitepress/multi-language' },
+          { text: 'DocSearch', link: '/post/about-vitepress/docsearch' },
+          { text: '静态部署', link: '/post/about-vitepress/assets' },
+          { text: '样式美化', link: '/post/about-vitepress/style' },
+          { text: '组件', link: '/post/about-vitepress/components' },
+          { text: '布局插槽', link: '/post/about-vitepress/layout' },
+          { text: '插件', link: '/post/about-vitepress/plugin' },
+          { text: '更新及卸载', link: '/post/about-vitepress/update' },
+          { text: '搭建导航', link: '/post/about-vitepress/nav/' },
+          { text: '永久链接', link: '/post/about-vitepress/permalink/' }
+        ]
+      }
+    ]
+  },
+  { text: '友链', link: '/friend-link-list/' },
+  { text: '关于作者', link: 'https://fqzlr.com/about.html' }
+],
     socialLinks: [
       {
         icon: 'github',
