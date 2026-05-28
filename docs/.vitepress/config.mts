@@ -57,7 +57,7 @@ nav: [
         items: [
           {
             text: '2026-05-27 最新三采高清写真图生成工作流，z-image加klein强强联合',
-            link: '/post/about-ai/豹豹喵呜/2026-05-27最新三采高清写真图生成工作流-z-image加klein强强联合'
+            link: '/post/about-ai/豹豹喵呜/2026-05-27最新三采高清写真图生成工作流z-image加klein强强联合'
           },
           {
             text: '豹豹画册提示词',
