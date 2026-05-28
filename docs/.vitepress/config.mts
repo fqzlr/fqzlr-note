@@ -56,32 +56,34 @@ nav: [
       {
         text: '豹豹喵呜',
         items: [
-          { text: '2026-05-27 最新三采高清写...', link: '/post/about-ai/豹豹喵呜/2026-05-27 最新三采高清写...' },
+          { text: '2026-05-27 最新三采高清写...', link: '/post/about-ai/豹豹喵呜/2026-05-27 最新三采高清写真图生成工作流，z-image加klein强强联合' },
           { text: '豹豹画册提示词', link: '/post/about-ai/豹豹喵呜/豹豹画册提示词' }
         ]
       },
       {
         text: '跳爷',
         items: [
-          { text: '4月04期 人物换头 声音同步...', link: '/post/about-ai/跳爷/4月04期 人物换头 声音同步...' },
-          { text: '4月09期 OmniVoice多角色...', link: '/post/about-ai/跳爷/4月09期 OmniVoice多角色...' },
+          { text: '4月04期 人物换头 声音同步替换', link: '/post/about-ai/跳爷/4月04期 人物换头 声音同步替换' },
+          { text: '4月09期 OmniVoice多角色对白 没Qwen3 tts好', link: '/post/about-ai/跳爷/4月09期 OmniVoice多角色对白 没Qwen3 tts好' },
           { text: '4月16期 短视频自动配音效', link: '/post/about-ai/跳爷/4月16期 短视频自动配音效' },
-          { text: '5月05期 多图参考一键4-9-2...', link: '/post/about-ai/跳爷/5月05期 多图参考一键4-9-2...' },
-          { text: '5月09期 视频转风格（用不到...', link: '/post/about-ai/跳爷/5月09期 视频转风格（用不到...' },
-          { text: '5月12期 SoulX-Singer｜一键...', link: '/post/about-ai/跳爷/5月12期 SoulX-Singer｜一键...' },
+          { text: '5月05期 多图参考一键4-9-25 多宫短剧分镜', link: '/post/about-ai/跳爷/5月05期 多图参考一键4-9-25 多宫短剧分镜' },
+          { text: '5月09期 视频转风格（用不到）', link: '/post/about-ai/跳爷/5月09期 视频转风格（用不到）' },
+          { text: '5月12期 SoulX-Singer｜一键换声', link: '/post/about-ai/跳爷/5月12期 SoulX-Singer｜一键换声' },
           { text: '5月16期-4图转视频导演工作流', link: '/post/about-ai/跳爷/5月16期-4图转视频导演工作流' },
-          { text: 'Z-1月27期-Qwen3-TTS支持8...', link: '/post/about-ai/跳爷/Z-1月27期-Qwen3-TTS支持8...' }
+          { text: 'Z-1月27期-Qwen3-TTS支持8角色同框配音神器', link: '/post/about-ai/跳爷/Z-1月27期-Qwen3-TTS支持8角色同框配音神器' }
         ]
       },
       {
         text: '橡树幻想',
         items: [
-          { text: '2026-04-05 最新优化版黑兽K...', link: '/post/about-ai/橡树幻想/2026-04-05 最新优化版黑兽K...' },
-          { text: '2026-04-16 LTX23超强一致性...', link: '/post/about-ai/橡树幻想/2026-04-16 LTX23超强一致性...' },
-          { text: '2026-05-06 KleinTrueV2全功...', link: '/post/about-ai/橡树幻想/2026-05-06 KleinTrueV2全功...' },
-          { text: '2026-05-27 三采样极致真实 ...', link: '/post/about-ai/橡树幻想/2026-05-27 三采样极致真实 ...' }
+          { text: '2026-04-05 最新优化版黑兽Klein9B全自动换脸+任意姿势编辑合集', link: '/post/about-ai/橡树幻想/2026-04-05 最新优化版黑兽Klein9B全自动换脸+任意姿势编辑合集' },
+          { text: '2026-04-16 LTX23超强一致性数字人工作流AI演唱会MV制作', link: '/post/about-ai/橡树幻想/2026-04-16 LTX23超强一致性数字人工作流AI演唱会MV制作' },
+          { text: '2026-05-06 KleinTrueV2全功能合集，7套商用级生图+编辑工作流', link: '/post/about-ai/橡树幻想/2026-05-06 KleinTrueV2全功能合集，7套商用级生图+编辑工作流' },
+          { text: '2026-05-27 三采样极致真实 文声图', link: '/post/about-ai/橡树幻想/2026-05-27 三采样极致真实 文声图' }
         ]
-      },
+      }
+    ]
+  }
       {
         text: 'ai学习',
         items: [
